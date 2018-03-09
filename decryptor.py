@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Based on a script and research by Larsenv from RiiConnect24
 from glob import glob
-import os.path
+import os
 import sys
 
 from Crypto.Cipher import AES
