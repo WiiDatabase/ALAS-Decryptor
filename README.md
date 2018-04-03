@@ -15,7 +15,7 @@ Thanks to Larsenv from [RiiConnect24](https://rc24.xyz/) for figuring out the ke
 
 ## Technical stuff
 1. Remove the first 320 bytes (the RSA signature) from the ALAS file
-2. Decrypt it with AES-256-CBC mode and the key `FF4C1AE3D4FFD236712E258A1F0B91E72C9125B0DF94C1691BCEF13011F16C0F` with `862D7D8676A630A82972AB9735E1A5CE` as initialiazation vector
+2. Decrypt it with AES-256-CBC mode and the key `FF4C1AE3D4FFD236712E258A1F0B91E72C9125B0DF94C1691BCEF13011F16C0F` with `862D7D8676A630A82972AB9735E1A5CE` as initialization vector
 3. Remove the first 32 bytes from the decrypted data and you get an LZ77-compressed U8 archive
 
 ## More?
